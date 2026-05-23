@@ -1,0 +1,29 @@
+# DeepSER-GUI Requirements
+# Speech Emotion Recognition - Streamlit Application with emotion2vec
+
+# Core Dependencies
+streamlit>=1.52.0
+numpy>=1.23.5
+pandas>=1.5.3
+
+# Audio Processing
+librosa>=0.10.1
+soundfile>=0.13.0
+audioread>=3.1.0
+audio-recorder-streamlit>=0.0.10
+
+# emotion2vec Model Dependencies
+transformers>=4.57.0
+torch>=2.9.0
+torchaudio>=2.9.0
+funasr>=1.2.7
+modelscope>=1.33.0
+
+# Visualization
+matplotlib>=3.7.1
+seaborn>=0.12.2
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.1
+scipy>=1.10.1
